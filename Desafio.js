@@ -46,9 +46,9 @@ class ProductManager {
 
 const productManager = new ProductManager()
 console.log('Metodo getProducts: ',productManager.getProducts())
-productManager.addProduct('Shakira', 'Concierto del pespecho', 150, 'http://www.coderimages.com/shakira.jpg', '2468', 100)
+productManager.addProduct('Pizza', 'Napolitana', 150, 'https://cdn0.recetasgratis.net/es/posts/5/2/6/pizza_napolitana_32625_orig.jpg', '2468', 200)
 console.log('Metodo getProducts: ',productManager.getProducts())
-productManager.addProduct('Bad Bunny', 'Concierto poético', 400, 'http://www.coderimages.com/badbunny.jpg', '2468', 300)
+productManager.addProduct('Empanada', 'Pino', 400, 'https://images-gmi-pmc.edge-generalmills.com/314901be-3745-46d7-be00-3772e9887a63.jpg', '2468', 300)
 console.log('Metodo getProductById: ',productManager.getProductById(1))
 
 
