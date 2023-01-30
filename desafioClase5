@@ -71,13 +71,22 @@ class ProductManager {
 
 module.exports = ProductManager;
 
-const productsPath = './products.json';
+const productsPath = './productos.json';
 const products = new ProductManager(productsPath);
 
-products.getProducts()
-  .then(data => {
-    console.log(data)
-  })
-  .catch(error => {
-    console.error(error);
-  });
+const getAllProducts = products.getProducts().then(response => console.log(response));
+ console.log(getAllProducts);
+
+const findProductById = products.getProductById(4).then(response => console.log(response));
+ console.log(findProductById);
+
+
+// actualizar producto
+const datosProducto = {
+  title: "Promo 4",
+  description: "Promo para 4 personas",
+  price: 4400,
+  stock: 4
+}
+const updateProduct = products.updateProduct(4,datosProducto).then(response => console.log(response))
+console.log(updateProduct)
