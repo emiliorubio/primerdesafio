@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Promo 1",
+    "description": "Dos churrascos luco ",
+    "price": 6990,
+    "thumbnail": "https://restobar.com/promociones/promo-1.jpg",
+    "code": "R01",
+    "stock": 30
+  },
+  {
+    "title": "Promo 2",
+    "description": "Dos churrascos luco + papas fritas",
+    "price": 8000,
+    "thumbnail": "https://restobar.com/promociones/promo-2.jpg",
+    "code": "R02",
+    "stock": 20
+  },
+  {
+    "title": "Promo 3",
+    "description": "Dos completos italiano o luco a eleccion ",
+    "price": 4990,
+    "thumbnail": "https://restobar.com/promociones/promo-3.jpg",
+    "code": "R03",
+    "stock": 50
+  },
+  {
+    "title": "Promo 4",
+    "description": "Dos churrascos a eleccion + papas firtas + bebida 1.5Lt",
+    "price": 9500,
+    "thumbnail": "https://restobar.com/promociones/promo-4.jpg",
+    "code": "R04",
+    "stock": 20
+  },
+  {
+    "title": "Promo 5",
+    "description": "Dos as (luco o italiano)",
+    "price": 5800,
+    "thumbnail": "https://restobar.com/promociones/promo-5.jpg",
+    "code": "R05",
+    "stock": 25
+  }
+]
